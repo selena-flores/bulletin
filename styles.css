@@ -1,7 +1,17 @@
  body {
-     background-color: rgba(0, 0, 0);
+     background-color: rgba(0, 0, 0, 1);
+     background-repeat: no-repeat;
+     background-size: cover;
      color: greenyellow !important;
 
+ }
+
+ #bgimg {
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: .2;
+     width: 100%;
  }
 
  #headingbg {
@@ -13,10 +23,10 @@
  }
 
  .container {
-     background-color: black !important;
+     background-color: rgba(0, 0, 0, 0);
  }
 
  #heading {
      position: relative;
-     background-color: black;
+     background-color: rgba(0, 0, 0, 0);
  }
