@@ -1,0 +1,22 @@
+ body {
+     background-color: rgba(0, 0, 0);
+     color: greenyellow !important;
+
+ }
+
+ #headingbg {
+     position: absolute;
+     right: 47.5vw;
+     bottom: 0px;
+     width: 5vw;
+     filter: invert();
+ }
+
+ .container {
+     background-color: black !important;
+ }
+
+ #heading {
+     position: relative;
+     background-color: black;
+ }
