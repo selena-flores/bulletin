@@ -1,9 +1,17 @@
  body {
-     background-color: rgba(0, 0, 0, 1);
+     background-image: url("./images/bg.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      color: greenyellow !important;
+     font-family: comic-sans;
 
+ }
+
+ @font-face {
+     font-family: 'comic-sans';
+     /*a name to be used later*/
+     src: url('./fonts/comicz.ttf');
+     /*URL to font*/
  }
 
  #bgimg {
@@ -24,7 +32,7 @@
  }
 
  .container {
-     background-color: rgba(0, 0, 0, 0);
+     background-color: rgba(0, 0, 0, .35);
  }
 
  #heading {
