@@ -34,7 +34,7 @@ $(document).ready(function () {
       "Gabe",
       "Theresa",
       "Kaitlyn",
-      "Steven Wattson",
+      "Stephen",
       "Ash",
       "Ben",
       "Peggy",
