@@ -26,7 +26,6 @@ $(document).ready(function () {
       "Ryan",
       "Vic",
       "Avo",
-      "Kaitlyn",
       "Matt",
       "Daniel",
       "Taylor",
@@ -34,6 +33,7 @@ $(document).ready(function () {
       "Claire",
       "Gabe",
       "Theresa",
+      "Kaitlyn",
       "Steven Wattson",
       "Ash",
       "Ben",
@@ -55,7 +55,7 @@ $(document).ready(function () {
       "Noir",
       "Jesus",
       "Rosa",
-      "Dougan",
+      "Duggan",
     );
     $("#invite_list").html(names[i++ % names.length] + ",");
   }

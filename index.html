@@ -17,6 +17,23 @@
         <div id="heading" class="jumbotron text-center">
             <h1>CLUB PRIZMATiQ</h1>
             <p>Season 2</p>
+            <a id="stream_link">Streaming Live on Local Cinema Here</p>
+                    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "local_cinema_online",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["https://selena-flores.github.io/bulletin/"]
+      });
+    </script>
             <p> <img id="headingbg" src="./images/dino.gif">
             </p>
             <div id="notification" class="container"
