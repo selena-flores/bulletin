@@ -11,7 +11,6 @@
         <script
             src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="styles.css" />
-
     </head>
     <body>
         <div id="heading" class="jumbotron text-center">
@@ -19,13 +18,19 @@
             <p>Season 2</p>
             <p> <img id="headingbg" src="./images/dino.gif">
             </p>
-        </div>
+            <div id="notification" class="container"
+                style=" width: 75%; text-align: left;">
+                <div class="d-flex justify-content-left">click here to see your
+                    new message from
+                    @CLUBPRIZMATiQIRL!</div>
+            </div>
+            <br>
+            <div id="message" class="container"
+                style="text-align: center; width: 90%; display:none">
 
-        <div class="container" style="text-align: center;">
-            <div class="row">
-                <div class="d-flex justify-content-center">...</div>
-                <h3>March 2nd</h3>
-                <div class="p-2" style="text-align: left;">
+                <div class="row">
+                    <p style="text-align: left;" id="invite_list"></p>
+                    <div class="p-2" style="text-align: left;">
                         If you’re receiving this invite, it’s because you’ve
                         meant alot
                         to us and our journey. This event is kicking off Season
@@ -38,16 +43,20 @@
                         by
                         Taylor and Daniel, sets by datamami and kudacat. See you
                         there…
-                </div>
-                    <img src="./images/bg.jpeg" width="100%">
+                    </div>
+                    <img src="./images/flyer.jpeg" width="100%">
                 </div>
             </div>
         </div>
 
     </body>
     <footer>
-        <div class="container" style="text-align: right;">
+        <div id="ttyl" class="container"
+            style="text-align: right; display: none">
             <h3>ttyl rawrXD</h3>
         </div>
     </footer>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts.js"></script>
 </html>
