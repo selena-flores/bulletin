@@ -4,8 +4,10 @@ $(document).ready(function () {
     $("#message").show();
     $("#notification").hide();
     $("#ttyl").show();
+    $("#invite_list").html("Dougan" + ",");
+
     clearInterval(blinker);
-    setInterval(invite_list, 500);
+    setInterval(invite_list, 1000);
   });
   const blinker = setInterval(blink, 500);
   function blink() {
@@ -15,9 +17,9 @@ $(document).ready(function () {
       $("#notification").css("border-color", "yellow");
     }
   }
-
+  let i = 0;
   function invite_list() {
-    var names = [
+    var names = new Array(
       "Ayla",
       "Maya",
       "Madi",
@@ -54,14 +56,7 @@ $(document).ready(function () {
       "Jesus",
       "Rosa",
       "Dougan",
-    ];
-    let i = 0;
-    setInterval(function () {
-      // console.log(names[i % names.length]);
-      // $("#invite_list").html("dear " + names[i % names.length]);
-      console.log(i);
-      i++;
-      
-    }, 500);
+    );
+    $("#invite_list").html(names[i++ % names.length] + ",");
   }
 });
