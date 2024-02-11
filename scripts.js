@@ -45,7 +45,7 @@ $(document).ready(function () {
       "River",
       "Jesse",
       "Sepha",
-      "David Lee",
+      "David Le",
       "Andre",
       "Jaron",
       "E",
