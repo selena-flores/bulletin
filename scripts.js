@@ -22,7 +22,7 @@ $(document).ready(function () {
     var names = new Array(
       "Ayla",
       "Maya",
-      "Madi",
+      "Maddi",
       "Ryan",
       "Vic",
       "Avo",
@@ -56,6 +56,17 @@ $(document).ready(function () {
       "Jesus",
       "Rosa",
       "Duggan",
+      "Lily",
+      "Michaela",
+      "Seth",
+      "Aya",
+      "Max",
+      "Cosmo",
+      "KP",
+      "Nic",
+      "moon",
+      "Nina",
+      "Andrew",
     );
     $("#invite_list").html(names[i++ % names.length] + ",");
   }
