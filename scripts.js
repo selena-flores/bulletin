@@ -4,7 +4,7 @@ $(document).ready(function () {
     $("#message").show();
     $("#notification").hide();
     $("#ttyl").show();
-    $("#invite_list").html("Dougan" + ",");
+    $("#invite_list").html("Duggan" + ",");
 
     clearInterval(blinker);
     setInterval(invite_list, 1000);
