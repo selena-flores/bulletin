@@ -67,6 +67,15 @@ $(document).ready(function () {
       "moon",
       "Nina",
       "Andrew",
+      "Daven",
+      "Grady",
+      "Heather",
+      "Dasel",
+      "Fran",
+      "Miles",
+      "Walle",
+      "Louis",
+      "Data Recovery<3"
     );
     $("#invite_list").html(names[i++ % names.length] + ",");
   }
