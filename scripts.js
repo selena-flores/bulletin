@@ -20,6 +20,7 @@ $(document).ready(function () {
   let i = 0;
   function invite_list() {
     var names = new Array(
+      "Sage",
       "Ayla",
       "Maya",
       "Maddi",
